@@ -112,7 +112,7 @@
               filteredJobs.map((item, index) => (
                 <Grid item xs={12} sm={6} md={4} key={index} spacing={1}>
                   <Card elevation={2} sx={{
-                    width: '400px', height: '600px', border: '1px solid #e0e0e0',
+                    width: '400px', height: '610px', border: '1px solid #e0e0e0',
                     borderRadius: '16px', ':hover': { transform: 'scale(1.01)', }
                   }} >
                     <CardContent style={{ position: 'relative' }}>
@@ -219,6 +219,17 @@
                         }}>
                           <FontAwesomeIcon icon={faBolt} style={{ color: "#eb9834" }} />&nbsp;
                           Easy Apply
+                        </Button>
+                      </a>
+                      <br/> <br/>
+                      <a href='#' target="_blank" rel="noopener noreferrer">
+                        <Button variant="contained" style={{
+                          textAlign: 'center', borderRadius: '8px', backgroundColor: '#4943da',
+                          color: '#FFFFFF', fontWeight: 300, width: '50vh', height: '6vh', textTransform: 'none', fontSize: '17px', fontFamily: 'Roboto'
+                        }}>
+                          <img src="https://miro.medium.com/v2/resize:fit:988/1*4itGuaSECeDfqYxS3T0fJQ.png" alt="Blurred face" style={{ width: '20px', height: '20px', borderRadius: '50%', filter: 'blur(2px)'}} /> &nbsp;
+                          <img src="https://img.freepik.com/free-photo/portrait-man-with-closed-eyes-close-up_23-2148239996.jpg" alt="Blurred face" style={{ width: '20px', height: '20px', borderRadius: '50%', filter: 'blur(2px)'}} /> &nbsp;
+                          Unlock referral asks
                         </Button>
                       </a>
                     </CardContent>
